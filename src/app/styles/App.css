@@ -1,0 +1,24 @@
+/* App.css - минимальные стили */
+
+#root {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+/* Обнуленные стили компонентов */
+.logo,
+.card,
+.read-the-docs {
+  all: unset;
+  display: block;
+}
+
+/* Отключение анимаций */
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    animation: none !important;
+    transition: none !important;
+  }
+}
